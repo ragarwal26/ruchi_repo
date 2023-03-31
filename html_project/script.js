@@ -13,7 +13,7 @@ const rotationValues = [
   { minDegree: 277, maxDegree: 303, value: 7},
   { minDegree:304, maxDegree: 330, value: 8 },
   { minDegree: 84, maxDegree:111, value: 9 },
-  { minDegree: 330, maxDegree: 360, value: 10 },
+  { minDegree: 330, maxDegree: 360, value: 1 },
   { minDegree: 196, maxDegree: 222, value: 11},
   { minDegree: 28, maxDegree: 55, value: 12 },
   { minDegree: 140, maxDegree: 167, value: 13}
@@ -38,7 +38,7 @@ let myChart = new Chart(wheel, {
   type: "pie",
   data: {
     //Labels(values which are to be displayed on chart)
-    labels: ["Adnan", "Irene", "Amanda", "Austin", "Dan", "James","Jarondaki","Lucas","Sam","Ruchi","Ron","Amy","Datta"],
+    labels: ["Adnan", "Irene", "Amanda", "Austin", "Dan", "James","Jarondaki","Lucas","Ruchi","Ron","Amy","Datta"],
     //Settings for dataset/pie
     datasets: [
       {
