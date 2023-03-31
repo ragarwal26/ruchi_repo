@@ -4,19 +4,19 @@ const finalValue = document.getElementById("final-value");
 
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
-  { minDegree: 0, maxDegree: 27, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 112, maxDegree: 139, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 56, maxDegree: 83, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 168, maxDegree: 195, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 223, maxDegree: 250, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 251, maxDegree: 276, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 277, maxDegree: 303, value: "Congratulations !! you are the choosen one"},
-  { minDegree:304, maxDegree: 330, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 84, maxDegree:111, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 330, maxDegree: 360, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 196, maxDegree: 222, value: "Congratulations !! you are the choosen one"},
-  { minDegree: 28, maxDegree: 55, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 140, maxDegree: 167, value: "Congratulations !! you are the choosen one" }
+  { minDegree: 0, maxDegree: 27, value: 1 },
+  { minDegree: 112, maxDegree: 139, value: 2 },
+  { minDegree: 56, maxDegree: 83, value: 3 },
+  { minDegree: 168, maxDegree: 195, value: 4},
+  { minDegree: 223, maxDegree: 250, value: 5},
+  { minDegree: 251, maxDegree: 276, value: 6 },
+  { minDegree: 277, maxDegree: 303, value: 7},
+  { minDegree:304, maxDegree: 330, value: 8 },
+  { minDegree: 84, maxDegree:111, value: 9 },
+  { minDegree: 330, maxDegree: 360, value: 10 },
+  { minDegree: 196, maxDegree: 222, value: 11},
+  { minDegree: 28, maxDegree: 55, value: 12 },
+  { minDegree: 140, maxDegree: 167, value: 13}
 ];
 
 //Size of each piece
