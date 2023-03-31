@@ -4,23 +4,23 @@ const finalValue = document.getElementById("final-value");
 
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
-  { minDegree: 0, maxDegree: 27, value: 1 },
-  { minDegree: 112, maxDegree: 139, value: 2 },
-  { minDegree: 56, maxDegree: 83, value: 3 },
-  { minDegree: 168, maxDegree: 195, value: 4},
-  { minDegree: 223, maxDegree: 250, value: 5},
-  { minDegree: 251, maxDegree: 276, value: 6 },
+  { minDegree: 61, maxDegree: 90, value: 1 },
+  { minDegree: 31, maxDegree: 60, value: 2 },
+  { minDegree: 0, maxDegree: 30, value: 3 },
+  { minDegree: 331, maxDegree: 360, value: 4},
+  { minDegree: 301, maxDegree: 330, value: 5},
+  { minDegree: 271, maxDegree: 300, value: 6 },
   { minDegree: 277, maxDegree: 303, value: 7},
-  { minDegree:304, maxDegree: 330, value: 8 },
-  { minDegree: 84, maxDegree:111, value: 9 },
-  { minDegree: 330, maxDegree: 360, value: 1 },
-  { minDegree: 196, maxDegree: 222, value: 11},
-  { minDegree: 28, maxDegree: 55, value: 12 },
-  { minDegree: 140, maxDegree: 167, value: 13}
+  { minDegree: 241, maxDegree: 270, value: 8 },
+  { minDegree: 211, maxDegree: 240, value: 9 },
+  { minDegree: 181, maxDegree: 210, value: 1 },
+  { minDegree: 151, maxDegree: 180, value: 11},
+  { minDegree: 121, maxDegree: 150, value: 12 },
+  { minDegree: 91, maxDegree: 120, value: 13}
 ];
 
 //Size of each piece
-const data = [6.8, 6.8, 6.8, 6.8, 6.8, 6.8,6.8,6.8,6.8,6.8,6.8,6.8,6.8,6.8];
+const data = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
 //background color for eachpiece
 var pieColors = [
   "#8b35bc",
