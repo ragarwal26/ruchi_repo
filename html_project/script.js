@@ -4,19 +4,19 @@ const finalValue = document.getElementById("final-value");
 
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
-  { minDegree: 61, maxDegree: 90, value: 1 },
-  { minDegree: 31, maxDegree: 60, value: 2 },
-  { minDegree: 0, maxDegree: 30, value: 3 },
-  { minDegree: 331, maxDegree: 360, value: 4},
-  { minDegree: 301, maxDegree: 330, value: 5},
-  { minDegree: 271, maxDegree: 300, value: 6 },
-  { minDegree: 277, maxDegree: 303, value: 7},
-  { minDegree: 241, maxDegree: 270, value: 8 },
-  { minDegree: 211, maxDegree: 240, value: 9 },
-  { minDegree: 181, maxDegree: 210, value: 1 },
-  { minDegree: 151, maxDegree: 180, value: 11},
-  { minDegree: 121, maxDegree: 150, value: 12 },
-  { minDegree: 91, maxDegree: 120, value: 13}
+  { minDegree: 61, maxDegree: 90, value: "Congratulations, you are selected" },
+  { minDegree: 31, maxDegree: 60, value: "Congratulations, you are selected" },
+  { minDegree: 0, maxDegree: 30, value: "Congratulations, you are selected" },
+  { minDegree: 331, maxDegree: 360, value: "Congratulations, you are selected"},
+  { minDegree: 301, maxDegree: 330, value: "Congratulations, you are selected"},
+  { minDegree: 271, maxDegree: 300, value: "Congratulations, you are selected" },
+  { minDegree: 277, maxDegree: 303, value: "Congratulations, you are selected"},
+  { minDegree: 241, maxDegree: 270, value: "Congratulations, you are selected"},
+  { minDegree: 211, maxDegree: 240, value: "Congratulations, you are selected" },
+  { minDegree: 181, maxDegree: 210, value: "Congratulations, you are selected" },
+  { minDegree: 151, maxDegree: 180, value: "Congratulations, you are selected"},
+  { minDegree: 121, maxDegree: 150, value: "Congratulations, you are selected" },
+  { minDegree: 91, maxDegree: 120, value: "Congratulations, you are selected"}
 ];
 
 //Size of each piece
@@ -65,7 +65,7 @@ let myChart = new Chart(wheel, {
       },
       //display labels inside pie chart
       datalabels: {
-        color: "#ffffff",
+         color: "#ffffff",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
         font: { size: 24 },
       },
@@ -77,7 +77,7 @@ const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
-      finalValue.innerHTML = `<p>Value: ${i.value}</p>`;
+      finalValue.innerHTML = `<p>${i.value}</p>`;
       spinBtn.disabled = false;
       break;
     }
