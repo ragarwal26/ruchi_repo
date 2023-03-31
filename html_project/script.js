@@ -4,20 +4,19 @@ const finalValue = document.getElementById("final-value");
 
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
-  { minDegree: 0, maxDegree: 24, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 25, maxDegree: 49, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 50, maxDegree: 74, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 75, maxDegree: 99, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 100, maxDegree: 124, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 125, maxDegree: 149, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 150, maxDegree: 174, value: "Congratulations !! you are the choosen one"},
-  { minDegree:175, maxDegree: 199, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 200, maxDegree:224, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 225, maxDegree: 249, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 250, maxDegree: 274, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 275, maxDegree: 299, value: "Congratulations !! you are the choosen one"},
-  { minDegree: 300, maxDegree: 324, value: "Congratulations !! you are the choosen one" },
-  { minDegree: 350, maxDegree: 360, value: "Congratulations !! you are the choosen one" }
+  { minDegree: 0, maxDegree: 27, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 112, maxDegree: 139, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 56, maxDegree: 83, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 168, maxDegree: 195, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 223, maxDegree: 250, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 251, maxDegree: 276, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 277, maxDegree: 303, value: "Congratulations !! you are the choosen one"},
+  { minDegree:304, maxDegree: 330, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 84, maxDegree:111, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 330, maxDegree: 360, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 196, maxDegree: 222, value: "Congratulations !! you are the choosen one"},
+  { minDegree: 28, maxDegree: 55, value: "Congratulations !! you are the choosen one" },
+  { minDegree: 140, maxDegree: 167, value: "Congratulations !! you are the choosen one" }
 ];
 
 //Size of each piece
