@@ -12,7 +12,6 @@
 #     fl = myfile.readlines()
 #     for x in fl:
 #         print(x)
-
 import os
 from os import path
 
