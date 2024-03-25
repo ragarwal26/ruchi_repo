@@ -1,0 +1,11 @@
+{
+  "name": "ruchi_test",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1"
+  }
+}
